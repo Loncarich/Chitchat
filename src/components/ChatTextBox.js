@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { sendMessage } from '../sockets_client.js';
+
 class ChatTextBox extends Component {
   constructor(props) {
     super(props);

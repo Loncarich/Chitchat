@@ -1,6 +1,4 @@
 import React from 'react';
-import { ListItem } from 'material-ui/List';
-import CommunicationChatBubble from 'material-ui/svg-icons/communication/chat-bubble';
 
 const UsersListEntry = (props) => {
 
