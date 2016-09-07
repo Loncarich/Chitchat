@@ -1,0 +1,88 @@
+html {
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  color: #000;
+  background: #fff;
+}
+
+body {
+  font: 62.5% Arial, Helvetica, sans-serif;
+}
+
+.main {
+  display: -webkit-flex;
+  -webkit-flex-direction: row;
+}
+
+.main-header {
+  text-align: center;
+}
+.main-users-list {
+  -webkit-flex: 4;
+}
+
+.main-chat-view {
+  -webkit-flex: 8;
+  border: 2px solid;
+  border-radius: 5px;
+  min-height: 70vh;
+  max-height: 70vh;
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.users-list {
+  background: #fff;
+  padding: 0 2px 0 4px;
+  min-height: 100vh;
+  max-height: 100vh;
+  margin: 10px 0 0 5px;
+  overflow-y: scroll;
+}
+
+.users-list-entry {
+  font-size: 1.6em;
+  padding:  2px;
+  margin: 1px 0;
+  border: 2px solid;
+  border-radius: 5px;
+}
+
+.chat-view {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.chat-view-textbox {
+  position: absolute;
+  bottom: 10px;
+  width: 50%;
+}
+
+.chat-view-entry {
+  width: 100%;
+}
+.chat-view-entry-self {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 5px 0 5px;
+  width: 20%;
+  float: right;
+  clear: both;
+}
+
+.chat-view-entry-friend {
+  text-align: center;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 5px 0 5px;
+  width: 20%;
+  clear: both;
+}
